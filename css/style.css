@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,12 +14,38 @@ body {
     color: #f9faf8;
 }
 
+.header {
+    display: flex;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 button {
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
+}
+
+.promo {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
+    font-weight: 100;
 }
