@@ -85,22 +85,34 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .info h2{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .info img {
     display: block;
     border: 4px #3882f6 solid;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 
 .infopics {
     display: flex;
+    margin-bottom: 80px;
+    gap: 50px;
+}
+
+.card p {
+    text-align: center;
+    color: #767d88;
 }
 
 .quote {
@@ -108,4 +120,6 @@ button {
     font-size: 36px;
     font-weight: 100;
     color: #1f2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
