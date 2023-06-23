@@ -70,10 +70,6 @@ body {
     margin-bottom: 10px;
 }
 
-button, .promo  {
-    background-color: #3882f6;
-    color: #f9faf8;
-}
 button {
     font-weight: 900;
     padding: 5px 25px;
@@ -122,4 +118,42 @@ button {
     color: #1f2937;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+button, .promo  {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.promo {
+    margin: 70px 200px;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.promo .text h3 {
+    font-weight: 900;
+    font-size: 24px;
+}
+.promo .text p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.btn-area {
+    display: flex;
+    align-items: center;
+}
+
+.promo button {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
