@@ -1,164 +1,171 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
-.header, .hero, .info, .quote, .promo, footer {
-    padding: 0 150px;
+.header,
+.hero,
+.info,
+.quote,
+.promo,
+footer {
+  padding: 0 150px;
 }
 
-.header, .hero, footer  {
-    background-color: #1f2937;
-    color: #f9faf8;
+.header,
+.hero,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
 .header h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .header ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-
 .header ul a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .hero {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 20px;
 }
 
-.hero > .text, .hero > img {
-    flex: 1;
+.hero > .text,
+.hero > img {
+  flex: 1;
 }
 
-.hero h1{
-    font-size: 48px;
-    font-weight: 900;
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .hero img {
-    background-color: #aaaaaa;
-    display: block;
+  background-color: #aaaaaa;
+  display: block;
 }
 
-.hero p, .header ul a {
-    font-size: 18px;
-    color: #e5e7eb;
+.hero p,
+.header ul a {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 button {
-    font-weight: 900;
-    padding: 5px 25px;
-    border-radius: 5px;
-    border-style: none;
+  font-weight: 900;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border-style: none;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.info h2{
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .info img {
-    display: block;
-    border: 4px #3882f6 solid;
-    border-radius: 15px;
-    width: 100%;
-    aspect-ratio: 1/1;
+  display: block;
+  border: 4px #3882f6 solid;
+  border-radius: 15px;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .infopics {
-    display: flex;
-    margin-bottom: 80px;
-    gap: 50px;
+  display: flex;
+  margin-bottom: 80px;
+  gap: 50px;
 }
 
 .card p {
-    text-align: center;
-    color: #767d88;
+  text-align: center;
+  color: #767d88;
 }
 
 .quote {
-    background-color: #e5e7eb;
-    font-size: 36px;
-    font-weight: 100;
-    color: #1f2937;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .quote .name {
-    font-weight: 900;
-    text-align: right;
-    font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  font-size: 24px;
 }
-button, .promo  {
-    background-color: #3882f6;
-    color: #f9faf8;
+button,
+.promo {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 .promo {
-    margin: 70px 200px;
-    padding: 35px 50px;
-    display: flex;
-    justify-content: space-between;
+  margin: 70px 200px;
+  padding: 35px 50px;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .promo .text h3 {
-    font-weight: 900;
-    font-size: 24px;
+  font-weight: 900;
+  font-size: 24px;
 }
 .promo .text p {
-    font-weight: 100;
-    font-size: 14px;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .btn-area {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .promo button {
-    border-color: #F9FAF8;
-    border-style: solid;
+  border-color: #f9faf8;
+  border-style: solid;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
