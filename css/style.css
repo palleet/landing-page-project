@@ -66,6 +66,8 @@ footer {
 .hero img {
   background-color: #aaaaaa;
   display: block;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .hero p,
@@ -113,7 +115,12 @@ button {
   gap: 50px;
 }
 
+.card { 
+  flex: 1;
+}
+
 .card p {
+  margin-top: 10px;
   text-align: center;
   color: #767d88;
 }
@@ -141,6 +148,7 @@ button,
   padding: 35px 50px;
   display: flex;
   justify-content: space-between;
+  border-radius: 10px;
 }
 
 .promo .text h3 {
